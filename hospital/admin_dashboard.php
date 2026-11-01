@@ -1,0 +1,25 @@
+<?php
+require 'auth.php';
+exigir_admin();
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard do Administrador</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <button class="voltar-button" onclick="location.href='logout.php'">
+        <i class="arrow-left">&#8592;</i> Sair</button>
+    <div class="dashboard-container">
+        <div class="menu">
+            <button onclick="location.href='cadastrar_pergunta.php'">Cadastrar Pergunta</button>
+            <button onclick="location.href='cadastrar_dispositivo.php'">Cadastrar Dispositivo</button>
+            <button onclick="location.href='cadastrar_setor.php'">Cadastrar Setor</button>
+            <button onclick="location.href='monitorar_sistema.php'">Monitorar Sistema</button>
+        </div>
+    </div>
+</body>
+</html>
