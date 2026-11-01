@@ -2,7 +2,9 @@
 
 Sistema web para coletar **avaliações espontâneas e anônimas** de pacientes e acompanhantes do **Hospital Regional Alto Vale (HRAV)**. Tablets ou totens instalados nos setores do hospital exibem um questionário com notas de 0 a 10. A equipe administrativa cadastra as perguntas, os setores e os dispositivos e acompanha as respostas num painel de monitoramento.
 
-Projeto desenvolvido na disciplina de Desenvolvimento Web (2024).
+## Sobre o projeto
+
+Este sistema foi desenvolvido em 2024 como **projeto de extensão do curso de Sistemas de Informação da [Unidavi](https://www.unidavi.edu.br/)** (Centro Universitário para o Desenvolvimento do Alto Vale do Itajaí). A proposta da extensão universitária é aplicar o que se aprende em sala de aula num problema real da comunidade. Aqui, o problema era oferecer ao hospital uma forma simples de ouvir a opinião dos usuários sobre o atendimento, setor por setor.
 
 ## Funcionalidades
 
